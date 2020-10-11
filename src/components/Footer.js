@@ -19,6 +19,9 @@ const FooterDiv = styled.footer`
     color: red;
     font-size: 1.1rem;
   }
+  .footer__text {
+    padding: 0 1.2rem;
+  }
 `;
 
 function Footer() {
@@ -26,7 +29,7 @@ function Footer() {
     <FooterDiv>
       <div className="horizontal__row" />
       <br />
-      <p>
+      <p className="footer__text">
         This clone is created by{" "}
         <a
           href="https://www.facebook.com/mahdi.bouaziz.319"
