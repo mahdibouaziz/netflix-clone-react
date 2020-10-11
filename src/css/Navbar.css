@@ -1,0 +1,37 @@
+.navbar {
+  /* Fixed navbar */
+  position: fixed;
+  z-index: 100;
+  top: 0;
+
+  /* Styling the navbar */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  background-color: #111;
+}
+
+.nav__logo {
+  width: 6rem;
+  position: relative;
+  left: 10px;
+}
+
+.mahdi__logo {
+  width: 3.6rem;
+  position: relative;
+  right: 30px;
+}
+
+.mahdi__logo > img {
+  width: 3.6rem;
+  border-radius: 50%;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+
+.mahdi__logo:hover > img {
+  transform: scale(1.1);
+}
